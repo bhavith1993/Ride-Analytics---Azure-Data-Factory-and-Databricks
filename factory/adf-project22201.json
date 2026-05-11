@@ -1,0 +1,15 @@
+{
+	"name": "adf-project22201",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ba6c6c9b-eaf3-47ef-b5ef-50c59048cc6a",
+		"tenantId": "21ec4bfc-a56a-4248-b721-5640d403af22"
+	}
+}
