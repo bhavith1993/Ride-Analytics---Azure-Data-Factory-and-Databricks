@@ -1,0 +1,41 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "trip_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customer_rating",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "driver_rating",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customer_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "driver_id",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ride_ratings"
+		}
+	}
+}
